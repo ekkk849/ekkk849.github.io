@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-[#1a0826] text-[#d8b4fe] font-mono">
+ 
+    <header class="body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
+            <a class="mr-5 hover:text-[#f3e8ff]" href="aboutme.html">About Me</a>
+            <a class="mr-5 hover:text-[#f3e8ff]" href="work.html">Work</a>
+            <a class="mr-5 hover:text-[#f3e8ff]" href="projects.html">Projects</a>
+            <a class="hover:text-[#f3e8ff]" href="blog.html">Blog</a>
+        </nav>
+        <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-[#f3e8ff] lg:items-center lg:justify-center mb-4 md:mb-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" 
+                stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                class="w-10 h-10 text-[#1a0826] p-2 bg-[#d8b4fe] rounded-full" 
+                viewBox="0 0 24 24">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span class="ml-3 text-xl">Esha K<sup>3</sup></span>
+        </a>
+        <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
+            <a href="index.html">
+            <button class="inline-flex items-center bg-[#d8b4fe] text-[#1a0826] border-0 py-1 px-3 focus:outline-none hover:bg-[#f3e8ff] rounded text-base mt-4 md:mt-0">
+                Auckland
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" 
+                    stroke-linejoin="round" stroke-width="2" 
+                    class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+            </button>
+            </a>
+        </div>
+        </div>
+    </header>
+    <main>
+        <section id="content">
+            <p>This is a simple web page.</p>
+        </section>
+        <section class="text-purple-200 bg-[#1a0826] body-font">
+            <div class="container px-5 py-24 mx-auto flex flex-wrap">
+              <!-- Step 1 -->
+              <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
+                <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                  <div class="h-full w-1 bg-purple-700 pointer-events-none"></div>
+                </div>
+                <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-purple-600 text-white relative z-10 title-font font-medium text-sm">2022</div>
+                <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                  <div class="flex-shrink-0 w-24 h-24 bg-purple-900 text-purple-400 rounded-full inline-flex items-center justify-center">
+                    <svg class="w-12 h-12" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                  </div>
+                  <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                    <h2 class="font-medium title-font text-purple-100 mb-1 text-xl">Shooting Stars</h2>
+                    <p class="leading-relaxed">Neo-pop nostalgia fused with cyber dreams. A glitch in time never felt so right.</p>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Step 2 -->
+              <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+                <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                  <div class="h-full w-1 bg-purple-700 pointer-events-none"></div>
+                </div>
+                <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-purple-600 text-white relative z-10 title-font font-medium text-sm">2023</div>
+                <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                  <div class="flex-shrink-0 w-24 h-24 bg-purple-900 text-purple-400 rounded-full inline-flex items-center justify-center">
+                    <svg class="w-12 h-12" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+                      <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                    </svg>
+                  </div>
+                  <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                    <h2 class="font-medium title-font text-purple-100 mb-1 text-xl">The Catalyzer</h2>
+                    <p class="leading-relaxed">Binary beats and retro pulses spark revolutions in digital midnight.</p>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Step 3 -->
+              <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+                <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                  <div class="h-full w-1 bg-purple-700 pointer-events-none"></div>
+                </div>
+                <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-purple-600 text-white relative z-10 title-font font-medium text-sm">2024</div>
+                <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                  <div class="flex-shrink-0 w-24 h-24 bg-purple-900 text-purple-400 rounded-full inline-flex items-center justify-center">
+                    <svg class="w-12 h-12" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+                      <circle cx="12" cy="5" r="3"></circle>
+                      <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+                    </svg>
+                  </div>
+                  <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                    <h2 class="font-medium title-font text-purple-100 mb-1 text-xl">The 400 Blows</h2>
+                    <p class="leading-relaxed">Echoes of rebellion encoded in a spectrum of violet static. Resistance, rewritten.</p>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Step 4 -->
+              <div class="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
+                <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                  <div class="h-full w-1 bg-purple-700 pointer-events-none"></div>
+                </div>
+                <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-purple-600 text-white relative z-10 title-font font-medium text-sm">2025</div>
+                <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                  <div class="flex-shrink-0 w-24 h-24 bg-purple-900 text-purple-400 rounded-full inline-flex items-center justify-center">
+                    <svg class="w-12 h-12" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+                      <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                      <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                  </div>
+                  <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                    <h2 class="font-medium title-font text-purple-100 mb-1 text-xl">Neptune</h2>
+                    <p class="leading-relaxed">Under purple neon skies, the future waits with its eyes closed. Dive in.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+          
+    </main>
+    <footer class="text-[#d8b4fe] bg-[#1a0826] body-font font-mono border-t border-[#4c1d95] mt-20">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+          <a class="flex title-font font-medium items-center md:justify-start justify-center text-[#f3e8ff]">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" 
+                 stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                 class="w-10 h-10 text-[#1a0826] p-2 bg-[#d8b4fe] rounded-full" 
+                 viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span class="ml-3 text-xl">Esha K<sup>3</sup></span>
+          </a>
+          <p class="text-sm text-[#d8b4fe] sm:ml-4 sm:pl-4 sm:border-l sm:border-[#6b21a8] sm:py-2 sm:mt-0 mt-4">
+            © 2025 Esha Kalyanam —
+            <a href="mailto:eshakalyanam@gmail.com" class="text-[#e9d5ff] ml-1" target="_blank" rel="noopener noreferrer">eshakalyanam@gmail.com</a>
+          </p>
+          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+            <a class="text-[#c084fc] hover:text-[#f3e8ff]" href="https://github.com/ekkk849">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" 
+                   stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M12 0C5.37 0 0 5.373 0 12c0 5.302 3.438 9.8 8.205 11.387.6.11.82-.258.82-.577
+                0-.285-.01-1.04-.015-2.04-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756
+                -1.09-.745.084-.729.084-.729 1.205.084 1.84 1.236 1.84 1.236 1.07 1.835 2.807 1.305 
+                3.492.998.11-.775.42-1.305.763-1.605-2.665-.3-5.466-1.332-5.466-5.931 
+                0-1.31.465-2.381 1.235-3.221-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 
+                3.3 1.23a11.49 11.49 0 013.003-.404c1.02.005 2.045.138 3.003.404 2.28-1.552 
+                3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 
+                1.911 1.23 3.221 0 4.61-2.805 5.625-5.475 5.921.435.375.81 1.102.81 
+                2.222 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 
+                21.795 24 17.297 24 12c0-6.627-5.373-12-12-12z"></path>
+              </svg>
+            </a>
+          </span>
+        </div>
+    </footer>
+
+</html>
